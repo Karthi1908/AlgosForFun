@@ -93,7 +93,7 @@ while i < 3:
         logger.info("-------------------")
         message = "Sell in " + max_bid_exch + " Buy in " + min_ask_exch
         #print(message)
-        telegram='https://api.telegram.org/bot949842434:AAHkHI4PkzFJ6ZGbAFp9tKmBg-2wyUbsU1k/sendMessage'
+        telegram='https://api.telegram.org/***APIKEY***k/sendMessage'
         tparam = { "chat_id":"@ArbInfo","text": message}
         response = requests.request("GET", telegram, params=tparam)
         print(response.json()['result']['text'])
@@ -104,7 +104,7 @@ while i < 3:
         time.sleep(5)
         logger.info("-------------------")
         if i%100 == 0 :
-            telegram='https://api.telegram.org/bot949842434:AAHkHI4PkzFJ6ZGbAFp9tKmBg-2wyUbsU1k/sendMessage?chat_id=@ArbInfo&text=No%20Arb%20Opportunity'
+            telegram='https://api.telegram.org/*****/sendMessage?chat_id=@ArbInfo&text=No%20Arb%20Opportunity'
             response = requests.get(telegram)
             print(response.json()['result']['text'])
 
