@@ -18,8 +18,8 @@ import requests
 import datetime
 import json
 
-api_key = 'a1289987f545093504bfa3a6530f27'
-api_secret = '43e6e8f3368d4ceb1ad342863c9a1de51e22ecb1130f7ca98ccc104917df'
+api_key = 'YOUR API KEY'
+api_secret = 'API SECRET'
 #url = 'https://api.delta.exchange'
 
 headers = {
