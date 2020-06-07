@@ -2,6 +2,7 @@
 """
 Created on Fri Jun  5 22:24:41 2020
 Delta exchange Trades
+Back testing of multiple strategies and their combination on Delta Exchange.
 
 @author: karth
 """
@@ -120,8 +121,8 @@ def main():
         #ins['trigger'] = np.where(((ins['DI_POS'] < ins['DI_NEG']) & (ins['RSI'] < 45)), -1, ins['trigger'])
         #ins['trigger'] = np.where(((ins['RSI'] > 65) & (ins['DI_POS'] < 32) & (ins['ADX'] <50)),-1,ins['trigger'])
         #ins['trigger'] = np.where(((ins['RSI'] < 35) & (ins['DI_NEG'] < 32) & (ins['ADX'] <50)),1,ins['trigger'])
-        #ins['trigger'] = np.where(((ins['SAR'] > ins['high'])  ),1,ins['trigger'])
-        #ins['trigger'] = np.where(((ins['SAR'] < ins['low'])  ),-1,ins['trigger'])
+        ins['trigger'] = np.where(((ins['SAR'] > ins['high'])  ),1,ins['trigger'])
+        ins['trigger'] = np.where(((ins['SAR'] < ins['low'])  ),-1,ins['trigger'])
         #ins['trigger'] = np.where(((ins['SAR'] > ins['high']) &(ins['RSI'] > 55)),1,ins['trigger'])
         #ins['trigger'] = np.where(((ins['SAR'] < ins['low'])  &(ins['RSI'] < 45)),-1,ins['trigger'])
         #ins['trigger'] = np.where(((ins['SAR'] > ins['high']) &(ins['DI_POS'] > ins['DI_NEG'])),1,ins['trigger'])
