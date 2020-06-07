@@ -17,10 +17,10 @@ from pandas.io.json import json_normalize
 from statsmodels.tsa.stattools import adfuller
 
 
-API_key = 'Bearer ' + '9bfe28b92878187d1a099d11026dd72f-0e03348154341fdba0b586ad8d37442a'
+API_key = 'Bearer ' + 'ADD YOUR API KEY'
 headers = {
          'Accept': 'application/json',
-         'Authorization' : 'Bearer ' + '9bfe28b92878187d1a099d11026dd72f-0e03348154341fdba0b586ad8d37442a' ,
+         'Authorization' : 'Bearer ' + 'ADD YOUR API KEY' ,
         # 'Accept-Datetime-Format' : 'RFC3339'
           }
 
