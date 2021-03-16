@@ -2,7 +2,7 @@
 """
 Created on Sun May 31 08:44:06 2020
 Momentum strategies in Forex
-Backtesting if the 20 day monentum forex paris provides any indication of future price
+Backtesting if the 20 day monentum forex pairs provides any indication of future price
 @author: karth
 """
 
