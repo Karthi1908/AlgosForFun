@@ -24,8 +24,8 @@ client_credentials = \
   "method" : "public/auth",
   "params" : {
     "grant_type" : "client_credentials",
-    "client_id" : "QHeB9Ppa",
-    "client_secret" : "pXdsxZzMVw2wxFH2-2knyoLJytJv20kgYwIt5fJNF6c"
+    "client_id" : "XXXXX",
+    "client_secret" : "YYYYYYY"
   }
 }
 
