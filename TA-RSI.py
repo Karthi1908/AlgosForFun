@@ -10,7 +10,7 @@ import pandas as pd
 import pandas_datareader.data as web
 from datetime import date, timedelta
 import quandl 
-#quandl.ApiConfig.api_key = 'HTNov29YHShyqrm1R7sZ'
+#quandl.ApiConfig.api_key = 'XXXXXXXXXXXX'
 
 end=date.today()
 start=end - timedelta(days= 5*365)
