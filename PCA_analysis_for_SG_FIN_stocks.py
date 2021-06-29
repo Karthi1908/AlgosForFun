@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar  9 22:55:21 2020
+Created on Mon Mar  9 22:55:21 2021
 Original code available  rodler/quantinsti_statarb
 Modified for SG stocks for self learning.
 @author: karth
